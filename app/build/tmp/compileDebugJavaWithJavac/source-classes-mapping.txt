@@ -1,0 +1,2 @@
+com/example/loginscreen/BuildConfig.java
+ com.example.loginscreen.BuildConfig
