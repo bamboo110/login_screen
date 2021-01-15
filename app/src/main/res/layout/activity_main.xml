@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:includeFontPadding="false"
+        android:text="Let's sign you in."
+        android:textColor="@color/abu_400"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Welcome back."
+        android:textColor="@color/abu_400"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="You've have been missed!"
+        android:textColor="@color/abu_400"
+        android:textSize="30sp" />
+
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/border_background"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="20sp"
+        android:textColor="@color/abu_400"
+        android:hint="Username"
+        android:textColorHint="@color/abu_200"/>
+
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border_background"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:textColor="@color/abu_400"
+        android:hint="Password"
+        android:textColorHint="@color/abu_200"/>
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/border_background"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hapticFeedbackEnabled="false"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textColor="@color/abu_200"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="New User? Signup"
+        android:textSize="18sp"
+        android:textColor="@color/abu_200"/>
+
+
+
+</LinearLayout>
